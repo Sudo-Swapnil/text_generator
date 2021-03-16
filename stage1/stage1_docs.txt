@@ -1,0 +1,14 @@
+In this stage, we take the following important steps:
+
+1. Open and read the corpus from the provided file corpus.txt. The filename is specified as user input. 
+2. Break the corpus into individual words. 
+   To create a Markov model, we use the simplest form of tokenization: 
+      Tokens are separated by whitespace characters such as spaces, tabulation, and newline characters. 
+      Punctuation marks should be left untouched since later on, they will play an important role in signaling where a sentence should end.
+3. Acquire and print the following information about the corpus under the section of the output called Corpus statistics:
+      — the number of all tokens;
+      — the number of all unique tokens, that is, the number of tokens without repetition.
+4. Take an integer as user input and print the token with the corresponding index. 
+   Repeat this process until the string exit is input. 
+   Also, we make sure that the input index is actually an integer that falls in the range of the corpus. 
+   If that is not the case, print an error message and request a new input. Error messages should contain the types of errors (Type Error, Index Error, etc.).

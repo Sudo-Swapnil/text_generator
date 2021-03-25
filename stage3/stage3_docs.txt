@@ -1,0 +1,5 @@
+In this final stage, we build a tri-gram model to make more accurate and meaningful sentences.
+
+Here, we generate 10 random sentences with minimum length of 5 tokens per sentences. 
+
+Each sentence follow all the necessary punctuation rules. 
